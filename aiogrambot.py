@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.exceptions import Throttled
 from aiogram.utils.executor import start_polling
 
-from covidtebibfunctions import active, genecov, recovered, new, deaths, tests
+from parse import active, genecov, recovered, new, deaths, tests
 
 API_TOKEN = '1742496521:AAFBhylZQFSwPsRBTyiSs0Sr0cyxI-hiTY4'
 
