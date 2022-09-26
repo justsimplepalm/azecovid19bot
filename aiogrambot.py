@@ -10,7 +10,7 @@ from aiogram.utils.executor import start_polling
 
 from parse import active, genecov, recovered, new, deaths, tests
 
-API_TOKEN = '1742496521:AAFBhylZQFSwPsRBTyiSs0Sr0cyxI-hiTY4'
+API_TOKEN = ''
 
 logging.basicConfig(level=logging.INFO)
 
