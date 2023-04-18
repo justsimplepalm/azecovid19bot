@@ -4,13 +4,13 @@ import logging
 from aiogram import Bot, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import Dispatcher
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from aiogram.utils.exceptions import Throttled
 from aiogram.utils.executor import start_polling
 
 from parse import active, genecov, recovered, new, deaths, tests
 
-API_TOKEN = ''
+API_TOKEN = '1742496521:AAFBhylZQFSwPsRBTyiSs0Sr0cyxI-hiTY4'
 
 logging.basicConfig(level=logging.INFO)
 
