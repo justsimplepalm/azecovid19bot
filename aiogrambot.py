@@ -4,7 +4,7 @@ import logging
 from aiogram import Bot, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import Dispatcher
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.exceptions import Throttled
 from aiogram.utils.executor import start_polling
 
@@ -171,7 +171,7 @@ async def sstests(message: types.Message):
 
 
 @dp.message_handler()
-async def any(message: Message):
+async def any(message: types.Message):
     try:
         await dp.throttle('help', rate=5)
         await bot.send_message(message.chat.id,
